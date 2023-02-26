@@ -55,11 +55,11 @@ function Navbar() {
                 ATSAUKSMES
               </Link>
             </li>
-            <li className="nav-item">
+            {/*<li className="nav-item">
               <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
                 REĢISTRĒTIES
               </Link>
-            </li>
+  </li>*/}
           </ul>
           {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
         </div>
