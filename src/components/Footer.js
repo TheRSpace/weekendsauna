@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">Join the Adventure newsletter to receive our best vacation deals</p>
+        <p className="footer-subscription-heading">Saņem labākos piedāvājumus no mums!</p>
         <p className="footer-subscription-text">You can unsubscribe at any time.</p>
         <div className="input-areas">
           <form>
@@ -52,12 +52,12 @@ function Footer() {
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="social-logo">
+            {/*<Link to="/" className="social-logo">
               TRVL
               <i class="fab fa-typo3" />
-            </Link>
+              </Link>*/}
           </div>
-          <small class="website-rights">TRVL © 2020</small>
+          <small class="website-rights">Weekend Sauna © 2023</small>
           <div class="social-icons">
             <Link class="social-icon-link facebook" to="https://www.facebook.com//weekendsauna" target="https://www.facebook.com//weekendsauna" aria-label="Facebook">
               <i class="fab fa-facebook-f" />
