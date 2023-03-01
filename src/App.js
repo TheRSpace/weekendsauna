@@ -22,7 +22,9 @@ const App = () => {
         </Helmet>
       </div>
       <Router>
-        <Navbar />
+        <React.Fragment>
+          <Navbar />
+        </React.Fragment>
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />

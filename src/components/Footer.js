@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "../styles/Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">Saņem labākos piedāvājumus no mums!</p>
-        <p className="footer-subscription-text">You can unsubscribe at any time.</p>
+        {/* <p className="footer-subscription-text">You can unsubscribe at any time.</p> */}
         <div className="input-areas">
           <form>
             <input className="footer-input" name="email" type="email" placeholder="Your Email" />
